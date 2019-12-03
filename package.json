@@ -1,0 +1,29 @@
+{
+    "name": "love",
+    "version": "1.0.0",
+    "description": "true love",
+    "main": "bin/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "lzy-cli": "bin/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Likj/loveCli.git"
+    },
+    "keywords": [
+        "love"
+    ],
+    "author": "lzy",
+    "license": "ISC",
+    "dependencies": {
+        "boxen": "^4.1.0",
+        "chalk": "^3.0.0",
+        "commander": "^4.0.1",
+        "figlet": "^1.2.4",
+        "inquirer": "^7.0.0",
+        "ora": "^4.0.3"
+    }
+}
