@@ -14,6 +14,6 @@ commander
 commander.parse(process.argv);
 
 
-if (!process.argv.slice(2).length || process.argv.slice(2) !== 'love') {
+if (!process.argv.slice(2).length || process.argv.slice(2)[0] !== 'love') {
     commander.help();
 }
